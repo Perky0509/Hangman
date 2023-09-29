@@ -1,0 +1,17 @@
+import random
+
+word_list = ('melon', 'grapes', 'strawberries', 'figs', 'kiwi')
+
+word = random.choice(word_list)
+
+print(word)
+
+guess = input('Please enter a single letter:')
+print(guess)
+
+if len(guess) == 1 and guess.isalpha():
+	print("Good guess!")
+
+else:
+	print("oops! That is not a valid input.")
+
