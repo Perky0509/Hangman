@@ -3,32 +3,32 @@ import random
 word_list = ['melon', 'grapes', 'strawberries', 'figs', 'kiwi']
  
 
+
                 
-def check_guess(guess):
-    word = random.choice(word_list)
-    #guess = input(f'Please enter a single letter: {prompt}').lower()
-    
-    if guess in word:
-        print(f"Good guess! {guess} is in the word.")
+def check_user_guess(user_letter_guess):
+    random_word = random.choice(word_list)
+    #guess = input(f'Please enter a single letter:').lower()
+    if user_letter_guess in random_word:
+        print(f"Good guess! {user_letter_guess} is in the word.")
 
     else: 
-        print(f"Sorry, {guess} is not in the word. Try again.")
+        print(f"Sorry, {user_letter_guess} is not in the word. Try again.")
     
-    return word
+    return random_word
 
 
 def ask_for_input():
 
     while True:
-        guess = input(f'Please enter a single letter:')
-        if len(guess) != 1 and guess.isalpha():
+        user_letter_guess = input(f'Please enter a single letter:')
+        if len(user_letter_guess) != 1 and user_letter_guess.isalpha():
             print("Invalid letter. Please, enter a single alphabetical character.")
         else:
             break 
     
-    return check_guess(guess)
+    return check_user_guess(user_letter_guess)
       
 
 word_list = ['melon', 'grapes', 'strawberries', 'figs', 'kiwi']
 ask_for_input()
-#check_guess(prompt)
+#check_guess(guess)
