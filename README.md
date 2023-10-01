@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hangman
 
 ## Table of Contents
@@ -23,3 +24,6 @@
   
 
 ### License Information
+=======
+# Hangman
+>>>>>>> dedf23f (Initial commit)
