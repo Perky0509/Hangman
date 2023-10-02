@@ -19,15 +19,15 @@
 >>>>>>> 46cbe40 (Update README.md)
 
 ### Installation instructions
-  fklsd
+  No special libraries used, simple python script
+  import random used 
 
 ### Usage instructions
 <<<<<<< HEAD
   To play simply run the function ask_for_input and then you'll be asked to input a letter. Good luck!
 
 ### File structure
-  py file
-  imports random 
+  py file 
   within master of Hangman repo 
   
 
