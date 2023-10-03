@@ -1,3 +1,4 @@
+
 #Milestone 5 
 
 import random
@@ -45,15 +46,14 @@ class Hangman:
         
 def play_game(word_list): 
     game = Hangman(word_list, num_lives = 5) 
-    while True:
-            if game.num_lives > 0:
-                game.ask_for_input()
-            elif game.num_lives == 0:
-                print("Game Over! You lost.")
-                return game.random_word
-            elif game.num_lives != 0 and game.num_letters == 0:
-                return "Congratulations, you have one the game!"
-                
+    while game.num_lives > 0:
+        game.ask_for_input()
+        if game.num_lives == 0:
+            print("Game Over! You lost.")
+            return game.random_word
+        elif game.num_lives != 0 and game.num_letters == 0:
+            return "Congratulations, you have one the game!"
+                 
                 
                 
 
