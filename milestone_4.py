@@ -3,17 +3,8 @@ import random
 word_list = ['melon', 'grapes', 'strawberries', 'figs', 'kiwi']
 class Hangman:
         
-            #the word to be guessed
-        
-           #List of word denoted with a '_' for those letters not yet guessed correctly
-        
-            #number of unique letters in word not yet guessed
-        
-            #list of guesses that have already been tried
-        
         
         def __init__(self, word_list, num_lives = 5):
-            #self.user_letter_guess = user_letter_guess
             self.word_list = word_list
             self.num_lives = num_lives
             self.random_word =  random.choice(self.word_list)
