@@ -22,5 +22,5 @@
   
 
 ### License Information
-  
+MIT license   
 
