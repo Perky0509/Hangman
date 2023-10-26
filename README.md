@@ -1,7 +1,5 @@
 # Hangman
 
-## Table of Contents
-
 ### Project description: 
   Hangman is a fun game for players of all ages. It is simple, yet addictive that can be used to fill a rainy afternoon (or time relaxing in the sun!). 
   
@@ -9,7 +7,7 @@
   
   This version of the game notifies you if you choose the same letter twice, and you will not lose a life for that. 
 
- - All the words are types of fruit. 
+ - All the words are types of fruit (word_list = ['melon', 'grapes', 'strawberries', 'figs', 'kiwi'])
 
  - The aim of this project is to implement learnings about classes among other things, tying that in with previous lessions on function creation, loops and context managers.
 
